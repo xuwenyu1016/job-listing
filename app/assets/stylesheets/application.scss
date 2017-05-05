@@ -65,11 +65,14 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 
 .lead a{width: 150px;letter-spacing: 3px;transition: 1s all;}
 
-.caption {margin: 30px;text-align: center;top: 20px;}
+.caption {margin: 30px 30px 50px 30px;text-align: center;top: 20px;}
 
 .container-fluid #company{background-color: rgb(245,245,245);}
 
-.container-fluid #company .thumbnail {border: 0 none;box-shadow: none;margin-top: 80px;background-color: transparent;}
+.container-fluid #company .row>h2{margin-top: 40px;}
+
+.container-fluid #company .thumbnail {border: 0 none;box-shadow: none;margin-top: 40px;
+  background-color: transparent;}
 
 .container-fluid #company .thumbnail .img-thumbnail{border:none;}
 
