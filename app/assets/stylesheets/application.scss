@@ -21,31 +21,6 @@
 
 body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 
-.container-fluid.noPadding{padding-left: 0;padding-right: 0;}
-
-.container-fluid .jumbotron {background-image:url('http://sh.hzmba.com/uploads/allimg/1705/178-1F50513414AT.jpg');
-  background-repeat: no-repeat;background-size: cover;padding-bottom: 110px;border-radius: 0;}
-
-.jumbotron .title {text-align: center;
-  margin-top: 100px;margin-bottom: 0;color: white;}
-
-.slogan {margin-top: 10px;margin-bottom: 50px;text-align: center;color: #00FDFF;top: 12px;letter-spacing: 3px;}
-
-.lead {margin-bottom: 60px;text-align: center;color: white;}
-
-.lead a{width: 150px;letter-spacing: 3px;transition: 1s all;}
-
-.caption {margin: 30px;text-align: center;top: 20px;}
-
-.thumbnail {border: 0 none;box-shadow: none;margin-top: 60px;}
-
-.thumbnail .img-thumbnail{border:none;}
-
-.custab{border: 1px solid #ccc;padding: 5px;margin: 5% 0;
-  box-shadow: 3px 3px 2px #ccc;transition: 0.8s;}
-
-.custab:hover{box-shadow: 3px 3px 0px transparent;}
-
 .navbar-default{background-color: #212121;border-color: #212121;margin-bottom: 0;}
 
 .navbar{border-radius: 0;}
@@ -66,3 +41,28 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {background-color: #FFE0B2;color: #212121;}
+
+.custab{border: 1px solid #ccc;padding: 5px;margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;transition: 0.8s;}
+
+.custab:hover{box-shadow: 3px 3px 0px transparent;}
+
+.container-fluid.noPadding{padding-left: 0;padding-right: 0;}
+
+.container-fluid .jumbotron {background-image:url('http://sh.hzmba.com/uploads/allimg/1705/178-1F50513414AT.jpg');
+  background-repeat: no-repeat;background-size: cover;padding-bottom: 110px;border-radius: 0;margin-bottom: 0;}
+
+.jumbotron .title {text-align: center;
+  margin-top: 100px;margin-bottom: 35px;color: white;}
+
+.slogan {margin-top: 10px;margin-bottom: 50px;text-align: center;color: #00FDFF;top: 12px;letter-spacing: 3px}
+
+.lead {margin-bottom: 60px;text-align: center;color: white;}
+
+.lead a{width: 150px;letter-spacing: 3px;transition: 1s all;}
+
+.caption {margin: 30px;text-align: center;top: 20px;}
+
+#company .thumbnail {border: 0 none;box-shadow: none;margin-top: 80px;}
+
+#company .thumbnail .img-thumbnail{border:none;}
