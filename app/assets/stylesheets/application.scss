@@ -58,7 +58,8 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 .container-fluid .jumbotron .title {text-align: center;
   margin-top: 100px;margin-bottom: 35px;color: white;text-shadow: 5px 5px 5px #FF0000;}
 
-.slogan {margin-top: 10px;margin-bottom: 50px;text-align: center;color: #00FDFF;top: 12px;letter-spacing: 3px}
+.container-fluid .jumbotron .slogan {margin-top: 10px;margin-bottom: 50px;text-align: center;color: white;
+  top: 12px;letter-spacing: 3px;font-weight: bold;;}
 
 .lead {margin-bottom: 60px;text-align: center;color: white;}
 
