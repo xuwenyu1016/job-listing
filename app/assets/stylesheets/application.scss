@@ -31,7 +31,7 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {color: #FF6F00;background-color: transparent;}
 
-.navbar-default .navbar-nav > li > a{color: #EF6C00;}
+.navbar-default .navbar-nav > li > a{color: #EF6C00;transition: 1s all;}
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {color: #FF6F00;background-color: transparent;}
@@ -98,7 +98,7 @@ footer{padding-top: 15px;padding-bottom: 15px;}
   font-weight: 700;height: 36px;padding: 0 8px;}
 
 .loginmodal-submit {border: 0px;color: #fff;text-shadow: 0 1px rgba(0,0,0,0.1);
-  background-color: #4d90fe;padding: 17px 0px;font-family: roboto;font-size: 14px;}
+  background-color: #4d90fe;padding: 17px 0px;font-family: roboto;font-size: 14px;transition: 1s all;}
 
 .loginmodal-submit:hover {border: 0px;text-shadow: 0 1px rgba(0,0,0,0.3);
   background-color: #357ae8;}
