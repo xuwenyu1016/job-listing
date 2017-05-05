@@ -69,12 +69,30 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 
 .container-fluid #company{background-color: rgb(245,245,245);}
 
-.container-fluid #company .row>h2{margin-top: 80px;font-size: 36px;}
+.container-fluid #company .row>h2{margin-top: 75px;font-size: 36px;}
 
 .container-fluid #company .thumbnail {border: 0 none;box-shadow: none;margin-top: 40px;
   background-color: transparent;}
 
 .container-fluid #company .thumbnail .img-thumbnail{border:none;background-color: transparent;}
+
+.container-fluid #company .thumbnail .img-thumbnail:hover{animation: mymove 1s;cursor: pointer;;}
+
+@keyframes mymove {
+  from{transform: rotateY(0deg);}
+  to{transform: rotateY(360deg);}
+}
+
+@-moz-keyframes mymove {
+  from{transform: rotateY(0deg);}
+  to{transform: rotateY(360deg);}
+}
+
+@-webkit-keyframes mymove {
+  from{transform: rotateY(0deg);}
+  to{transform: rotateY(360deg);}
+}
+
 
 footer{padding-top: 5px;padding-bottom: 15px;}
 
