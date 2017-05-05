@@ -52,7 +52,7 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 .container-fluid .jumbotron {background-image:url('http://sh.hzmba.com/uploads/allimg/1705/178-1F50513414AT.jpg');
   background-repeat: no-repeat;background-size: cover;padding-bottom: 110px;border-radius: 0;margin-bottom: 0;}
 
-.jumbotron .title {text-align: center;
+.container-fluid .jumbotron .title {text-align: center;
   margin-top: 100px;margin-bottom: 35px;color: white;}
 
 .slogan {margin-top: 10px;margin-bottom: 50px;text-align: center;color: #00FDFF;top: 12px;letter-spacing: 3px}
@@ -63,6 +63,8 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 
 .caption {margin: 30px;text-align: center;top: 20px;}
 
-#company .thumbnail {border: 0 none;box-shadow: none;margin-top: 80px;}
+.container-fluid #company{background-color: rgb(245,245,245);}
 
-#company .thumbnail .img-thumbnail{border:none;}
+.container-fluid #company .thumbnail {border: 0 none;box-shadow: none;margin-top: 80px;}
+
+.container-fluid #company .thumbnail .img-thumbnail{border:none;}
