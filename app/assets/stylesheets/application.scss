@@ -21,8 +21,10 @@
 
 body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 
- .jumbotron {background-image:url('http://sh.hzmba.com/uploads/allimg/1705/178-1F50513414AT.jpg');
-  background-repeat: no-repeat;background-size: cover;padding-bottom: 110px;}
+.container-fluid.noPadding{padding-left: 0;padding-right: 0;}
+
+.container-fluid .jumbotron {background-image:url('http://sh.hzmba.com/uploads/allimg/1705/178-1F50513414AT.jpg');
+  background-repeat: no-repeat;background-size: cover;padding-bottom: 110px;border-radius: 0;}
 
 .jumbotron .title {text-align: center;
   margin-top: 100px;margin-bottom: 35px;color: white;}
@@ -36,3 +38,29 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 .thumbnail {border: 0 none;box-shadow: none;margin-top: 60px;}
 
 .thumbnail .img-thumbnail{border:none;}
+
+.custab{border: 1px solid #ccc;padding: 5px;margin: 5% 0;
+  box-shadow: 3px 3px 2px #ccc;transition: 0.8s;}
+
+.custab:hover{box-shadow: 3px 3px 0px transparent;}
+
+.navbar-default{background-color: #212121;border-color: #212121;margin-bottom: 0;}
+
+.navbar{border-radius: 0;}
+
+.navbar-default .navbar-brand {color: #EF6C00;padding: 10px 15px;line-height: 30px;}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {color: #FF6F00;background-color: transparent;}
+
+.navbar-default .navbar-nav > li > a{color: #EF6C00;}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {color: #FF6F00;background-color: transparent;}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {color: #FF6F00;background-color: #FFE0B2;}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {background-color: #FFE0B2;color: #212121;}
