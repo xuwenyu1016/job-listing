@@ -51,9 +51,11 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 .container-fluid.noPadding{padding-left: 0;padding-right: 0;}
 .container-fluid.paddingBottom{padding-bottom: 30px;}
 
+.container-fluid .sliderBox{position: relative;}
 
-.container-fluid .jumbotron {background-image:url('http://sh.hzmba.com/uploads/allimg/1705/178-1F50513414AT.jpg');
-  background-repeat: no-repeat;background-size: cover;padding-bottom: 110px;border-radius: 0;margin-bottom: 0;}
+
+.container-fluid .jumbotron {background-color:transparent;
+  padding-bottom: 110px;border-radius: 0;margin-bottom: 0;position: absolute;width: 100%;top:5%;}
 
 .container-fluid .jumbotron .title {text-align: center;
   margin-top: 100px;margin-bottom: 35px;color: white;text-shadow: 5px 5px 5px #FF0000;}
