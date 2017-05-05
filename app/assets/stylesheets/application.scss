@@ -52,6 +52,8 @@ body{font-family: "Microsoft Yahei", "Helvetica Neue";}
 .container-fluid.paddingBottom{padding-bottom: 30px;}
 
 .container-fluid .sliderBox{position: relative;}
+.container-fluid .sliderBox .carousel .carousel-inner .item img.img-responsive{width:100%;}
+.container-fluid .sliderBox .carousel .carousel-control{z-index: 10;}
 
 
 .container-fluid .jumbotron {background-color:transparent;
